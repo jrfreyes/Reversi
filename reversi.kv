@@ -1,0 +1,22 @@
+#:kivy 1.0
+
+BoxLayout:
+    orientation: 'vertical'
+    ReversiGrid:
+        id: reversi_grid
+        cols: 8
+    BoxLayout:
+        orientation: 'horizontal'
+        size_hint_y: 0.1
+        Label:
+            id: red_text
+            color: 'red'
+            text: 'Red: 0'
+        Label:
+            id: turn_text
+            color: 'red'
+            text: 'Red Turn'
+        Label:
+            id: blue_text
+            color: 'blue'
+            text: 'Blue: 0'
